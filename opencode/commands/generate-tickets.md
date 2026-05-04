@@ -1,6 +1,6 @@
 ---
 description: Convert a validated feature plan (or raw idea) into a small, sequenced set of engineering tickets ready to pick up.
-agent: plan
+agent: builder
 ---
 
 You are operating under the `product-discovery` skill, in the
@@ -8,6 +8,9 @@ You are operating under the `product-discovery` skill, in the
 output or is asking you to scope a feature directly. Your job is to
 turn it into a tight, sequenced set of tickets an engineer can pick up
 without asking follow-up questions.
+
+This command runs with the OpenCode build agent. Even so, this command
+is planning-only: produce ticket specs and do not implement code.
 
 ## Inputs
 
@@ -97,6 +100,8 @@ After the ticket list, include:
 ## Hard rules
 
 - Do not write code in the tickets. Write specs.
+- Do not assume you are the implementation owner; hand off to the
+  engineer clearly through the ticket output.
 - Do not invent acceptance criteria the input does not justify; ask
   for clarity instead, or list the question under "Open questions".
 - Do not edit files.

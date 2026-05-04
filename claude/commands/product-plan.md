@@ -14,6 +14,13 @@ Before you write any plan, interrogate the idea. Cover these ten
 questions, in plain prose, asking the user where you don't already
 have an answer:
 
+Interaction style for discovery:
+
+- Ask only 2-3 focused questions per turn.
+- Pause after each batch and wait for the user's reply.
+- Continue in short rounds until you have enough signal for a plan.
+- Do not dump a full 10-question questionnaire in one response.
+
 1. **Who is this for?** Specific persona, role, and context. Not
    "users".
 2. **What pain exists today?** Describe the current state in concrete
@@ -102,6 +109,8 @@ Choose exactly one and explain in 1-2 sentences:
 - Do not let nice-to-haves into MVP scope. If you are tempted, move
   them to Phase 2 and explain why.
 - Do not assume the first idea is good. Push back when it deserves it.
+- Do not assume you are implementing this work. You are producing
+  product planning output only.
 - Do not edit files.
 
 ---

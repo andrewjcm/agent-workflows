@@ -8,6 +8,9 @@ output or is asking you to scope a feature directly. Your job is to
 turn it into a tight, sequenced set of tickets an engineer can pick up
 without asking follow-up questions.
 
+This is planning-only output: produce ticket specs and do not
+implement code.
+
 ## Inputs
 
 `$ARGUMENTS` may contain:
@@ -96,6 +99,8 @@ After the ticket list, include:
 ## Hard rules
 
 - Do not write code in the tickets. Write specs.
+- Do not assume you are the implementation owner; hand off to the
+  engineer clearly through the ticket output.
 - Do not invent acceptance criteria the input does not justify; ask
   for clarity instead, or list the question under "Open questions".
 - Do not edit files.
